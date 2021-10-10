@@ -35,8 +35,21 @@ namespace Desafio_04
             ListAlunos.ForEach(Alunos => Console.WriteLine("Nome: " + Alunos.GetNome() + ",  " + Alunos.GetIdade() + ", Nota: " + Alunos.GetNota()));
             Console.WriteLine("A soma das notas é: " + aux);
 
-
-
+            ListAlunos.ForEach(Alunos =>
+            {
+                if (Alunos.GetNome().Substring(0,1) == "O" || Alunos.GetNome().Substring(0, 1) == "o")
+                {
+                    Console.WriteLine(Alunos.GetNome());
+                }
+            });
+            ListAlunos.ForEach(Alunos =>
+            {
+                if (Convert.ToInt32(Alunos.GetIdade()) > 18)
+                {
+                    Console.WriteLine("Os Alunos com idade maior de 18: " + Alunos.GetNome() +", "+ Alunos.GetIdade()+" Anos");
+                }
+            });
+             
         }
     }
 }
