@@ -1,0 +1,14 @@
+E:\Qodeless\Desafio_04\Desafio_04\Desafio_04\bin\Debug\netcoreapp3.1\Desafio_04.exe
+E:\Qodeless\Desafio_04\Desafio_04\Desafio_04\bin\Debug\netcoreapp3.1\Desafio_04.deps.json
+E:\Qodeless\Desafio_04\Desafio_04\Desafio_04\bin\Debug\netcoreapp3.1\Desafio_04.runtimeconfig.json
+E:\Qodeless\Desafio_04\Desafio_04\Desafio_04\bin\Debug\netcoreapp3.1\Desafio_04.runtimeconfig.dev.json
+E:\Qodeless\Desafio_04\Desafio_04\Desafio_04\bin\Debug\netcoreapp3.1\Desafio_04.dll
+E:\Qodeless\Desafio_04\Desafio_04\Desafio_04\bin\Debug\netcoreapp3.1\Desafio_04.pdb
+E:\Qodeless\Desafio_04\Desafio_04\Desafio_04\obj\Debug\netcoreapp3.1\Desafio_04.csproj.AssemblyReference.cache
+E:\Qodeless\Desafio_04\Desafio_04\Desafio_04\obj\Debug\netcoreapp3.1\Desafio_04.GeneratedMSBuildEditorConfig.editorconfig
+E:\Qodeless\Desafio_04\Desafio_04\Desafio_04\obj\Debug\netcoreapp3.1\Desafio_04.AssemblyInfoInputs.cache
+E:\Qodeless\Desafio_04\Desafio_04\Desafio_04\obj\Debug\netcoreapp3.1\Desafio_04.AssemblyInfo.cs
+E:\Qodeless\Desafio_04\Desafio_04\Desafio_04\obj\Debug\netcoreapp3.1\Desafio_04.csproj.CoreCompileInputs.cache
+E:\Qodeless\Desafio_04\Desafio_04\Desafio_04\obj\Debug\netcoreapp3.1\Desafio_04.dll
+E:\Qodeless\Desafio_04\Desafio_04\Desafio_04\obj\Debug\netcoreapp3.1\Desafio_04.pdb
+E:\Qodeless\Desafio_04\Desafio_04\Desafio_04\obj\Debug\netcoreapp3.1\Desafio_04.genruntimeconfig.cache
