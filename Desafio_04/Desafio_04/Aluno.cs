@@ -6,8 +6,8 @@ namespace Desafio_04
 {
     public class Aluno
     {
-        private string nome {get; set;}
-        private string idade { get; set; }
+        public string nome {get; set;}
+        public int idade { get; set; }
         private decimal nota { get; set; }
 
         public void SetNome(string nome)
@@ -21,12 +21,12 @@ namespace Desafio_04
         }
 
 
-        public void SetIdade(string idade)
+        public void SetIdade(int idade)
         {
             this.idade = idade;
         }
 
-        public string GetIdade()
+        public int GetIdade()
         {
             return idade;
         }
