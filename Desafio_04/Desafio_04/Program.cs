@@ -31,25 +31,21 @@ namespace Desafio_04
                 notas[i] = objaluno.GetNota();
                 ListAlunos.Add(objaluno);
                 aux += notas[i];
+
+                if (objaluno.GetNome().Substring(0, 1) == "O" || objaluno.GetNome().Substring(0, 1) == "o" && (Convert.ToInt32(objaluno.GetIdade()) >= 18))
+                {
+                    objaluno.GetNome();
+                    Console.WriteLine("O nome deste aluno começa com O: " + objaluno.GetNome());
+                    Console.WriteLine("Este aluno tem mais de 18 anos: " + objaluno.GetNome() + ", " + objaluno.GetIdade() + " Anos");
+                }
+                
             }
+
             ListAlunos.ForEach(Alunos => Console.WriteLine("Nome: " + Alunos.GetNome() + ",  " + Alunos.GetIdade() + ", Nota: " + Alunos.GetNota()));
             Console.WriteLine("A soma das notas é: " + aux);
 
-            ListAlunos.ForEach(Alunos =>
-            {
-                if (Alunos.GetNome().Substring(0,1) == "O" || Alunos.GetNome().Substring(0, 1) == "o")
-                {
-                    Console.WriteLine(Alunos.GetNome());
-                }
-            });
-            ListAlunos.ForEach(Alunos =>
-            {
-                if (Convert.ToInt32(Alunos.GetIdade()) > 18)
-                {
-                    Console.WriteLine("Os Alunos com idade maior de 18: " + Alunos.GetNome() +", "+ Alunos.GetIdade()+" Anos");
-                }
-            });
-             
+
+
         }
     }
 }
